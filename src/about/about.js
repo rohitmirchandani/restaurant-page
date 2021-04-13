@@ -1,0 +1,21 @@
+const aboutDiv = document.createElement("div");
+const heading = document.createElement("h1");
+const content = document.createElement("h2");
+const image1 = document.createElement("img");
+const image2 = document.createElement("img");
+const image3 = document.createElement("img");
+heading.innerText="Trying to do the right Since 2005";
+content.innerText=`Since our modest beginnings in 2005 with a little space in Toronto’s stylish Yorkville locale, ‘Organization Name’ ‘s development has been enlivened with the energy to cook and serve solid, Indian-roused takeout food. In contrast to other Indian eateries, Le-Khana was made with the explicit expectation to appear as something else. We realize numerous individuals love Indian sustenance, yet a large number of them loathe or are unconscious of the regularly unfortunate fixings that make run of the mill Indian nourishment taste so great. Our menu highlights things that utilization the sound and fragrant flavors, however forgets the stuffing ghee, spread, oil, and overwhelming cream. `
+image1.classList.add("image1");
+image2.classList.add("image2");
+image3.classList.add("image3");
+image1.src="https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784__340.jpg";
+image2.src="https://cdn.pixabay.com/photo/2018/07/14/15/27/cafe-3537801__340.jpg";
+image3.src="https://cdn.pixabay.com/photo/2015/05/15/14/55/cafe-768771__340.jpg";
+aboutDiv.appendChild(heading);
+aboutDiv.appendChild(content);
+aboutDiv.appendChild(image1);
+aboutDiv.appendChild(image2);
+aboutDiv.appendChild(image3);
+aboutDiv.classList.add("about-div");
+export {aboutDiv};

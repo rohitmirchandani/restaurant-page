@@ -1,2 +1,2 @@
 # restaurant-page
-A Basic Restaurant Page to learn Webpack and modules
+A Basic Restaurant Page to practice Webpack and modules
